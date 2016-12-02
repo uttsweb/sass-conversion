@@ -1,0 +1,57 @@
+$light_blue : #C7F7FF;
+$med_blue : #89C0C9;
+$dark_blue:#3a5E63;
+$light_brown:#C9A689;
+$dark_brown:#7C593C;
+$light_grey:#d4d4d4;
+$dark_grey:#222;
+$default:#FFF;
+$display_i: inline;
+$display_b: block;
+$display_n: none;
+$display_t: table;
+$font-size_d: 16px;
+$font-size_7: 7rem;
+$font-size_3: 3.998rem;
+$font-size_4: 4rem;
+$font-size_2: 2.827rem;
+$font-size_1: 1.414rem;
+$font-size_1_9: 1.999rem;
+$font-size_1r: 1rem;
+$font-default: 'Josefin Sans', ‘Trebuchet MS’, Helvetica, sans-serif;
+$font-heading: Cardo, ‘Palatino Linotype’, ‘Book Antiqua’, Palatino, serif;
+
+
+
+// Extend ----------------------------------------------
+
+.ext {
+  padding: 0;
+  margin: 0;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+  &:after, &:before {
+    -webkit-box-sizing: inherit;
+    box-sizing: inherit;
+}
+}
+
+.ext_after{
+  content: "";
+  position: absolute;
+  bottom: -1rem;
+  width: 30%;
+  height: 1rem;
+  background-color: $dark_blue;
+}
+
+.display{
+  display: block;
+  text-align: center;
+  text-decoration: none;
+  letter-spacing: 0.25rem;
+  border: 1px solid $light_grey;
+  border-bottom: none;
+  line-height: 1;
+
+}

@@ -1,0 +1,73 @@
+@mixin setColor ($bg-color, $color) {
+    background-color: $bg-color;
+    color: $color;
+}
+
+@mixin width_margin ($width, $margin){
+    width:$width;
+    margin:$margin;
+}
+
+@mixin  width_float($width, $float){
+    width:$width;
+    float:$float;
+
+}
+@mixin font_padding ($font,$padding){
+    font-size: $font;
+    padding: $padding;
+}
+
+@mixin line-min($line_height, $min_height) {
+    line-height: $line_height;
+    min-height: $min_height;
+
+}
+
+@mixin big ($display,$color,$v_align,$float,$font-size,$line_height){
+display: $display;
+color: $color;
+vertical-align:$v_align;
+float: $float;
+font-size: $font-size;
+line-height: $line_height;
+
+}
+
+@mixin width-color($width,$color){
+    width: $width;
+    color: $color;
+
+}
+
+@mixin width-padding($width, $padding) {
+    width: $width;
+    padding: $padding;
+}
+
+@mixin span($float, $letter,$font-size) {
+  float: $float;
+  letter-spacing: $letter;
+  font-size: $font-size;
+}
+
+@mixin width_all ($width){
+  width: $width;
+}
+
+@mixin margin_back_border($margin,$back_c,$border) {
+  margin: $margin;
+  background-color: $back_c;
+  border: $border;
+}
+
+@mixin fontsize_weight($f_size, $f_weight) {
+  font-size: $f_size;
+  font-weight: $f_weight;
+}
+
+@mixin fsize_line_color($font_s,$line_h, $color) {
+  font-size: $font_s;
+  line-height: $line_h;
+  color: $color;
+}
